@@ -1,0 +1,25 @@
+{
+  "name": "dbgproxy",
+  "version": "0.0.1",
+  "description": "DBGp (Common DeBugGer Protocol) Socket.IO proxy",
+  "main": "index.js",
+  "bin": {
+    "dbgproxy": "bin/dbgproxy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dbgp",
+    "debug",
+    "ide"
+  ],
+  "author": "Dan Phillimore (asmblah)",
+  "license": "MIT",
+  "dependencies": {
+    "dbgp": "0.0.1",
+    "lie": "^3.0.1",
+    "microdash": "^1.3.0",
+    "socket.io": "^2.1.0"
+  }
+}
